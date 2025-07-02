@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/app.ts",
+    "vercel-build": "pnpm build",
     "prepare": "husky",
     "build": "tsc",
     "swagger": "ts-node swagger/swagger.ts",
